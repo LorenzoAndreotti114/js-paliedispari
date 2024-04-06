@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- PAGE TITLE -->
+        <h1>PARI O DISPARI</h1>
+
+        <div class="inner-container">
+
+            <!-- HEADER -->
+            <div class="inner-header">
+                <label for="num" class="f-size label">Inserisci un numero da 1 a 6</label>
+                <input type="number" class="text1" id="diceText" placeholder="1, 2, 3, 4, 5, 6" min="0" max="6">
+
+                <div class="inner-btn">
+
+                    <input type="button" class="pali-btn" id="pariBtn" value="pari">
+                    <input type="button" class="pali-undo-btn" id="undoBtn" value="Annulla">
+                    <input type="button" class="pali-btn" id="dispariBtn" value="Dispari">
+
+                </div>
+                
+            </div>
+
+            <!-- MAIN -->
+            <div class="inner-main">  
+
+                <div class="main-num-shower">
+
+                    <div class="shower-lcr">
+                        <div class="inner-slt">
+                            IL TUO NUMERO:
+                        </div>
+                        <div class="inner-slb" id="playerNum">
+                            -
+                        </div>
+                    </div>
+
+                    <div class="shower-lcr">
+                        <div class="inner-slt">
+                            NUMERO PC:
+                        </div>
+                        <div class="inner-slb" id="pcNum">
+                            -
+                        </div>
+                    </div>
+
+                    <div class="shower-lcr">
+                        <div class="inner-slt">
+                            NUMERO TOTALE:
+                        </div>
+                        <div class="inner-slb" id="totNum">
+                            -
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="main-result" id="diceResult">
+                    IN ATTESA DEL NUMERO...
+                </div>
+
+            </div>
+
+            <div class="inner-footer">
+
+                <div class="footer-title">
+                    vuoi sapere se una parola è palindroma o meno?
+                </div>
+
+                <a href="./palindroma.html">Pali checker v1.0</a>
+
+            </div>
+        
+    </div>
+
+    <script src="./js-dice/functions-dice.js"></script>
+    <script src="./js-dice/script-dice.js"></script>
+</body>
+
+</html>

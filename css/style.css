@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 4vw;
+    padding-bottom: 5%;
+}
+
+.f-size {
+    font-size: 2vw;
+}
+
+.label {
+    padding-bottom: 2%;
+}
+
+a {
+    color: white;
+    font-size: 2.5vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vw;
+    background-color: brown;
+}
+
+.inner-container{
+    width: 80%;
+    height: 80%;
+    background-color: cadetblue;
+}
+
+.inner-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background-color: aqua;
+    padding: 2%;
+}
+
+.text1 {
+    height: 30%;
+    width: 30%;
+    border: 1px solid black;
+    font-size: 2vw;
+}
+
+.inner-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    width: 100%;
+}
+
+.pali-btn {
+    font-size: 2vw;
+    padding: 2% 10%;
+    border-radius: 10px;
+}
+
+.pali-undo-btn {
+    font-size: 2vw;
+    padding: 1% 5%;
+    border-radius: 10px;
+
+}
+
+.inner-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    background-color: wheat;
+}
+
+.main-result {
+    font-size: 4vw;
+    color: white;
+    background-color: brown;
+    padding: 3% 8%;
+}
+
+.main-num-shower {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    background-color: brown;
+}
+
+.shower-lcr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 90%;
+    border: 1px solid white;
+}
+
+.inner-slt {
+    font-size: 2.5vw;
+}
+
+.inner-slb {
+    font-size: 5vw;
+}
+
+.inner-footer { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background-color: blueviolet;
+}
+
+.footer-title {
+    font-size: 3vw;
+}

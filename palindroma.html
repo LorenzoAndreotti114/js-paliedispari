@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- PAGE TITLE -->
+        <h1>PALI CHECKER</h1>
+
+        <div class="inner-container">
+
+            <!-- HEADER -->
+            <div class="inner-header">
+
+                <!-- INPUT PALI -->
+                <label for="plaiText" class="f-size label">Inserisci una parola e verificherò se è palindroma o meno</label>
+                <input type="text" class="text1" id="paliText" placeholder="es: Anna, radar, ossesso">
+
+                <!-- BUTTONS -->
+                <div class="inner-btn">
+
+                    <!-- SEND -->
+                    <input type="button" class="pali-btn" id="paliBtn" value="Invia">
+
+                    <!-- UNDO -->
+                    <input type="button" class="pali-btn" id="undoBtn" value="Annulla">
+
+                </div>
+                
+            </div>
+
+            <!-- MAIN -->
+            <div class="inner-main">
+
+                <div class="main-result" id="paliResult">
+                    IN ATTESA DELLA PAROLA...
+                </div>
+
+            </div>
+
+            <div class="inner-footer">
+
+                <div class="footer-title">
+                    Se vuoi giocare contro un PC a pari o dispari allora clicca il link!
+                </div>
+
+                <a href="./pari-dispari.html">Gioco Pari o Dispari</a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+    <script src="./js-pali/functions-pali.js"></script>
+    <script src="./js-pali/script-pali.js"></script>
+</body>
+
+</html>
